@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <g fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Outer diamond shape -->
+    <path d="M200 360 L340 200 H660 L800 360 L500 840 Z" stroke-width="36"/>
+    <!-- Top facets -->
+    <path d="M340 200 L420 360 L580 360 L660 200" stroke-width="24"/>
+    <path d="M200 360 H420" stroke-width="24"/>
+    <path d="M580 360 H800" stroke-width="24"/>
+    <!-- Internal facet lines -->
+    <path d="M420 360 L500 840 L580 360" stroke-width="20"/>
+    <path d="M340 200 L200 360 L500 840 L800 360 L660 200" stroke-width="20"/>
+    <!-- Small crown details -->
+    <path d="M420 360 L500 260 L580 360" stroke-width="16"/>
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Needle (diagonal) -->
+    <path d="M660 220 L360 580" stroke-width="26"/>
+    <!-- Needle tip -->
+    <g fill="#fff" stroke="none">
+      <path d="M672 206 L648 234 L686 230 Z"/>
+    </g>
+    <!-- Needle eye -->
+    <ellipse cx="615" cy="280" rx="16" ry="10" transform="rotate(-50 615 280)" stroke-width="10"/>
+    
+    <!-- Thread beginning at the needle eye, flowing into a heart shape -->
+    <path d="M603 270
+             C 560 300, 520 340, 520 380
+             C 520 420, 560 440, 600 430
+             C 660 415, 700 450, 695 495
+             C 690 545, 640 570, 595 556
+             C 560 545, 530 515, 520 480
+             C 500 415, 560 360, 610 360"
+          stroke-width="16" fill="none"/>
+    
+    <!-- Heart loop (reinforce heart contour) -->
+    <path d="M610 360
+             C 570 320, 510 330, 505 380
+             C 500 430, 560 480, 600 520"
+          stroke-width="12"/>
+    
+    <!-- Free tail swirl -->
+    <path d="M600 520
+             C 540 600, 420 590, 380 540
+             C 350 505, 360 470, 400 460
+             C 450 445, 470 500, 420 520"
+          stroke-width="12"/>
+    
+    <!-- Decorative stitching (dashed arc) -->
+    <path d="M260 720
+             C 340 640, 460 640, 540 720"
+          stroke-width="18" stroke-dasharray="22 26"/>
+    
+    <!-- Small button to emphasize 'handmade' -->
+    <circle cx="720" cy="660" r="50" stroke-width="18"/>
+    <g stroke-width="10">
+      <line x1="700" y1="650" x2="710" y2="660"/>
+      <line x1="730" y1="670" x2="740" y2="680"/>
+      <line x1="710" y1="680" x2="700" y2="690"/>
+      <line x1="740" y1="640" x2="730" y2="650"/>
+    </g>
+  </g>
+</svg>

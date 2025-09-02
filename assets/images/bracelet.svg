@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer bracelet circle -->
+    <circle cx="500" cy="500" r="300" stroke-width="36"/>
+    <!-- Inner highlight circle for thickness illusion -->
+    <circle cx="500" cy="500" r="270" stroke-width="6" opacity="0.8"/>
+    
+    <!-- Clasp at the top -->
+    <path d="M440 210 Q500 160 560 210" stroke-width="22"/>
+    <circle cx="500" cy="220" r="20" stroke-width="16"/>
+    
+    <!-- Beads around bracelet -->
+    <g fill="#fff" stroke="none">
+      <circle cx="740" cy="500" r="14"/>
+      <circle cx="700" cy="380" r="12"/>
+      <circle cx="620" cy="300" r="12"/>
+      <circle cx="500" cy="260" r="10"/>
+      <circle cx="380" cy="300" r="12"/>
+      <circle cx="300" cy="380" r="12"/>
+      <circle cx="260" cy="500" r="14"/>
+      <circle cx="300" cy="620" r="12"/>
+      <circle cx="380" cy="700" r="12"/>
+      <circle cx="500" cy="740" r="10"/>
+      <circle cx="620" cy="700" r="12"/>
+      <circle cx="700" cy="620" r="12"/>
+    </g>
+    
+    <!-- Charm string and heart charm at bottom -->
+    <path d="M500 740 v70" stroke-width="14"/>
+    <g fill="#fff" stroke="none">
+      <path d="M500 855
+               c -22 -24 -55 -26 -70 -8
+               c -18 22 2 54 34 66
+               c 12 4 24 4 36 0
+               c 32 -12 52 -44 34 -66
+               c -15 -18 -48 -16 -70 8z"/>
+    </g>
+  </g>
+</svg>

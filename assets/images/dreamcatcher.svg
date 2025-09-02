@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <!-- Dreamcatcher -->
+  <g stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hanging loop -->
+    <path d="M500 120c35 0 64 29 64 64s-29 64-64 64-64-29-64-64 29-64 64-64z" stroke-width="18"/>
+    <path d="M500 184v68" stroke-width="18"/>
+    <!-- Outer hoop -->
+    <circle cx="500" cy="380" r="240" stroke-width="36"/>
+    <!-- Web: concentric rings -->
+    <circle cx="500" cy="380" r="170" stroke-width="12"/>
+    <circle cx="500" cy="380" r="110" stroke-width="12"/>
+    <circle cx="500" cy="380" r="55" stroke-width="12"/>
+    <!-- Web: spokes -->
+    <g stroke-width="12">
+      <path d="M500 140v480"/>
+      <path d="M260 380h480"/>
+      <path d="M345 225l310 310"/>
+      <path d="M655 225l-310 310"/>
+      <path d="M305 300l390 160"/>
+      <path d="M695 300l-390 160"/>
+      <path d="M305 460l390-160"/>
+      <path d="M695 460l-390-160"/>
+    </g>
+
+    <!-- Beads on hoop -->
+    <g fill="#fff" stroke="none">
+      <circle cx="500" cy="140" r="12"/>
+      <circle cx="740" cy="380" r="12"/>
+      <circle cx="500" cy="620" r="12"/>
+      <circle cx="260" cy="380" r="12"/>
+    </g>
+
+    <!-- Strings -->
+    <g stroke-width="16">
+      <path d="M400 620c0 80 0 80 0 160"/>
+      <path d="M500 620c0 90 0 90 0 180"/>
+      <path d="M600 620c0 80 0 80 0 160"/>
+    </g>
+
+    <!-- Beads on strings -->
+    <g fill="#fff" stroke="none">
+      <circle cx="400" cy="680" r="10"/>
+      <circle cx="400" cy="740" r="8"/>
+      <circle cx="500" cy="700" r="10"/>
+      <circle cx="500" cy="760" r="8"/>
+      <circle cx="600" cy="680" r="10"/>
+      <circle cx="600" cy="740" r="8"/>
+    </g>
+
+    <!-- Feathers (filled shapes) -->
+    <g fill="#fff" stroke="none">
+      <!-- Left feather -->
+      <path d="M380 860
+               C 355 825, 360 770, 395 740
+               C 420 720, 435 730, 432 760
+               C 428 795, 415 830, 380 860 Z"/>
+      <path d="M392 770 L 420 784"/>
+      <path d="M386 790 L 414 804"/>
+      <path d="M380 812 L 408 826"/>
+
+      <!-- Center feather -->
+      <path d="M480 900
+               C 455 860, 462 800, 505 770
+               C 535 748, 552 760, 548 792
+               C 544 828, 530 865, 480 900 Z"/>
+      <path d="M494 808 L 522 824"/>
+      <path d="M488 830 L 518 846"/>
+      <path d="M482 852 L 510 868"/>
+
+      <!-- Right feather -->
+      <path d="M620 860
+               C 595 825, 598 770, 635 740
+               C 660 720, 675 730, 672 760
+               C 668 795, 655 830, 620 860 Z"/>
+      <path d="M632 770 L 660 784"/>
+      <path d="M626 790 L 654 804"/>
+      <path d="M620 812 L 648 826"/>
+    </g>
+  </g>
+</svg>
